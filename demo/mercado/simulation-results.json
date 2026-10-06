@@ -1,0 +1,2861 @@
+{
+  "scenarios": [
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 3,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "offered",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "queued"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "open"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "queued"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "queued"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "queued"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 6,
+          "label": "Observed settlement and reconciliation",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "settled"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "settled"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "settled"
+            }
+          ],
+          "participant_gain": 134,
+          "state": "participant_confirmed_complete",
+          "teams": [
+            {
+              "cash": 258,
+              "gain": 58,
+              "holdings": [
+                "LAT-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 243,
+              "gain": 43,
+              "holdings": [
+                "CHA-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 243,
+              "gain": 33,
+              "holdings": [
+                "SAL-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 11,
+          "trades": 3
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "three",
+      "mode": "complete",
+      "title": "Three-team route",
+      "views": {
+        "t01": {
+          "buyer_fee": 2,
+          "cash_paid": 81,
+          "cash_received": 91,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t01",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "a66bec979aa74c878d44298fb8c2d674c05dfe7f15feac8b18d87987e673c519"
+        },
+        "t02": {
+          "buyer_fee": 2,
+          "cash_paid": 86,
+          "cash_received": 81,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t02",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "30686d72440b00cdbca18932df959528015b0465eb712a7b2af32cd5a14e496a"
+        },
+        "t03": {
+          "buyer_fee": 2,
+          "cash_paid": 91,
+          "cash_received": 86,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t03",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "f3eb00e4216d75341bc8c8059d759181ebc66054d72636c3b4ee331c7fffa32c"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 4,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "RET-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "offered",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "RET-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "RET-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t04",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "queued"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "open"
+            },
+            {
+              "buyer": "t03",
+              "card": "RET-01",
+              "fee": 2,
+              "price": 76,
+              "seller": "t04",
+              "status": "open"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "RET-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t04",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "queued"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "queued"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "queued"
+            },
+            {
+              "buyer": "t03",
+              "card": "RET-01",
+              "fee": 2,
+              "price": 76,
+              "seller": "t04",
+              "status": "queued"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "RET-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 8,
+          "label": "Observed settlement and reconciliation",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t04",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "settled"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "settled"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "settled"
+            },
+            {
+              "buyer": "t03",
+              "card": "RET-01",
+              "fee": 2,
+              "price": 76,
+              "seller": "t04",
+              "status": "settled"
+            }
+          ],
+          "participant_gain": 192,
+          "state": "participant_confirmed_complete",
+          "teams": [
+            {
+              "cash": 258,
+              "gain": 58,
+              "holdings": [
+                "LAT-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 243,
+              "gain": 43,
+              "holdings": [
+                "CHA-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 258,
+              "gain": 48,
+              "holdings": [
+                "SAL-01",
+                "RET-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            },
+            {
+              "cash": 233,
+              "gain": 43,
+              "holdings": [
+                "RET-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 135,
+              "outgoing_value": 75,
+              "team": "t04"
+            }
+          ],
+          "tick": 11,
+          "trades": 4
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "RET-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "RET-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t04",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "four",
+      "mode": "complete",
+      "title": "Four-team route",
+      "views": {
+        "t01": {
+          "buyer_fee": 2,
+          "cash_paid": 81,
+          "cash_received": 91,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 4,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "route_id": "49b55dc5e8d01c88482d913a74865819933813dce23656cac0078ebeceb9c78c",
+          "team": "t01",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "a5466cb6bcfd57065996bda783ccf43f96646a0cc3b7c7679493efa55de0f5dd"
+        },
+        "t02": {
+          "buyer_fee": 2,
+          "cash_paid": 86,
+          "cash_received": 81,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 4,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "route_id": "49b55dc5e8d01c88482d913a74865819933813dce23656cac0078ebeceb9c78c",
+          "team": "t02",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "1d5fcb22992317ab39a0f3f59c8558550a0da321e14472752e54c0eec90a55d0"
+        },
+        "t03": {
+          "buyer_fee": 2,
+          "cash_paid": 76,
+          "cash_received": 86,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 4,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 401,
+            "card": "RET-01"
+          },
+          "route_id": "49b55dc5e8d01c88482d913a74865819933813dce23656cac0078ebeceb9c78c",
+          "team": "t03",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "539cbf1f1c86662938b9bcb385e40c80badbac8adee8c9e3577b4e9c9883f772"
+        },
+        "t04": {
+          "buyer_fee": 2,
+          "cash_paid": 91,
+          "cash_received": 76,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 4,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 401,
+            "card": "RET-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "route_id": "49b55dc5e8d01c88482d913a74865819933813dce23656cac0078ebeceb9c78c",
+          "team": "t04",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "719011f8bc27003923d9f62d36ff0043a5d0f994cc6cd9d7199f325a74680938"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 3,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "offered",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [
+            "t03 explicitly declined: no trade authorized."
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "declined",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [
+            "t03 explicitly declined: no trade authorized."
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "declined",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [
+            "t03 explicitly declined: no trade authorized."
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "declined",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Observed settlement and reconciliation",
+          "notices": [
+            "t03 explicitly declined: no trade authorized."
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "declined",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 11,
+          "trades": 0
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "reject",
+      "mode": "reject",
+      "title": "One team declines",
+      "views": {
+        "t01": {
+          "buyer_fee": 2,
+          "cash_paid": 81,
+          "cash_received": 91,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t01",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "a66bec979aa74c878d44298fb8c2d674c05dfe7f15feac8b18d87987e673c519"
+        },
+        "t02": {
+          "buyer_fee": 2,
+          "cash_paid": 86,
+          "cash_received": 81,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t02",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "30686d72440b00cdbca18932df959528015b0465eb712a7b2af32cd5a14e496a"
+        },
+        "t03": {
+          "buyer_fee": 2,
+          "cash_paid": 91,
+          "cash_received": 86,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t03",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "f3eb00e4216d75341bc8c8059d759181ebc66054d72636c3b4ee331c7fffa32c"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 3,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve"
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve"
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve"
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve"
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Observed settlement and reconciliation",
+          "notices": [
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve",
+            "t02: AskQuestions: selected intent cannot be proven safe: current cash insufficient after commitments and reserve"
+          ],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 150,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 11,
+          "trades": 0
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "cash",
+      "mode": "cash",
+      "title": "Insufficient reserve",
+      "views": {}
+    },
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 3,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "offered",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [
+            "t01 outgoing marginal value changed from 90 to 151 P after approval.",
+            "t01: AskQuestions: sale asset, protection, page or private value changed"
+          ],
+          "offers": [
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "open"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": true,
+              "incoming_value": 140,
+              "outgoing_value": 151,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [
+            "t01 outgoing marginal value changed from 90 to 151 P after approval.",
+            "t01: AskQuestions: sale asset, protection, page or private value changed",
+            "t01: AskQuestions: an unresolved durable human gate blocks startup; review and resolve explicitly"
+          ],
+          "offers": [
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "queued"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": true,
+              "incoming_value": 140,
+              "outgoing_value": 151,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 2,
+          "label": "Observed settlement and reconciliation",
+          "notices": [
+            "t01 outgoing marginal value changed from 90 to 151 P after approval.",
+            "t01: AskQuestions: sale asset, protection, page or private value changed",
+            "t01: AskQuestions: an unresolved durable human gate blocks startup; review and resolve explicitly",
+            "t01: AskQuestions: an unresolved durable human gate blocks startup; review and resolve explicitly"
+          ],
+          "offers": [
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            },
+            {
+              "buyer": "t02",
+              "card": "SAL-01",
+              "fee": 2,
+              "price": 86,
+              "seller": "t03",
+              "status": "settled"
+            }
+          ],
+          "participant_gain": 43,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": true,
+              "incoming_value": 140,
+              "outgoing_value": 151,
+              "team": "t01"
+            },
+            {
+              "cash": 162,
+              "gain": 42,
+              "holdings": [
+                "CHA-01",
+                "CHA-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 336,
+              "gain": 1,
+              "holdings": [
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 11,
+          "trades": 1
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "value",
+      "mode": "value",
+      "title": "Value changes after approval",
+      "views": {
+        "t01": {
+          "buyer_fee": 2,
+          "cash_paid": 81,
+          "cash_received": 91,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t01",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "a66bec979aa74c878d44298fb8c2d674c05dfe7f15feac8b18d87987e673c519"
+        },
+        "t02": {
+          "buyer_fee": 2,
+          "cash_paid": 86,
+          "cash_received": 81,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t02",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "30686d72440b00cdbca18932df959528015b0465eb712a7b2af32cd5a14e496a"
+        },
+        "t03": {
+          "buyer_fee": 2,
+          "cash_paid": 91,
+          "cash_received": 86,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t03",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "f3eb00e4216d75341bc8c8059d759181ebc66054d72636c3b4ee331c7fffa32c"
+        }
+      }
+    },
+    {
+      "baseline": {
+        "description": "Replay of the supplied failed negotiations without introducing new counterparties. Not an optimal bilateral cash-market benchmark.",
+        "gain": 0,
+        "trades": 0
+      },
+      "count": 3,
+      "frames": [
+        {
+          "fees": 0,
+          "label": "Before coordination",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "no_route",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Local leads and private proposals",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "offered",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Buy-in and local safety checks",
+          "notices": [],
+          "offers": [],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Directed offers / safety stops",
+          "notices": [],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "open"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "open"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "running",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 0,
+          "label": "Acceptance decisions",
+          "notices": [
+            "t02 withdrew after one acceptance. That queued trade can still settle; others stop."
+          ],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "open"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "queued"
+            }
+          ],
+          "participant_gain": 0,
+          "state": "partial_stopped",
+          "teams": [
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "LAT-01",
+                "LAT-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "CHA-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 10,
+          "trades": 0
+        },
+        {
+          "fees": 2,
+          "label": "Observed settlement and reconciliation",
+          "notices": [
+            "t02 withdrew after one acceptance. That queued trade can still settle; others stop."
+          ],
+          "offers": [
+            {
+              "buyer": "t03",
+              "card": "LAT-01",
+              "fee": 2,
+              "price": 91,
+              "seller": "t01",
+              "status": "cancelled"
+            },
+            {
+              "buyer": "t01",
+              "card": "CHA-01",
+              "fee": 2,
+              "price": 81,
+              "seller": "t02",
+              "status": "settled"
+            }
+          ],
+          "participant_gain": 58,
+          "state": "partial_stopped",
+          "teams": [
+            {
+              "cash": 167,
+              "gain": 57,
+              "holdings": [
+                "LAT-01",
+                "LAT-01",
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 140,
+              "outgoing_value": 90,
+              "team": "t01"
+            },
+            {
+              "cash": 331,
+              "gain": 1,
+              "holdings": [
+                "CHA-01"
+              ],
+              "human_required": false,
+              "incoming_value": 130,
+              "outgoing_value": 80,
+              "team": "t02"
+            },
+            {
+              "cash": 250,
+              "gain": 0,
+              "holdings": [
+                "SAL-01",
+                "SAL-01"
+              ],
+              "human_required": false,
+              "incoming_value": 125,
+              "outgoing_value": 85,
+              "team": "t03"
+            }
+          ],
+          "tick": 11,
+          "trades": 1
+        }
+      ],
+      "history": [
+        {
+          "counterparty": "t09",
+          "offered": "LAT-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t01",
+          "wanted": "CHA-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "CHA-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t02",
+          "wanted": "SAL-01"
+        },
+        {
+          "counterparty": "t09",
+          "offered": "SAL-01",
+          "outcome": "walked",
+          "reason": "Counterparty has no requested card; negotiation ended without a trade.",
+          "team": "t03",
+          "wanted": "LAT-01"
+        }
+      ],
+      "id": "partial",
+      "mode": "partial",
+      "title": "Only one trade settles",
+      "views": {
+        "t01": {
+          "buyer_fee": 2,
+          "cash_paid": 81,
+          "cash_received": 91,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t01",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "a66bec979aa74c878d44298fb8c2d674c05dfe7f15feac8b18d87987e673c519"
+        },
+        "t02": {
+          "buyer_fee": 2,
+          "cash_paid": 86,
+          "cash_received": 81,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 201,
+            "card": "CHA-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t02",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "30686d72440b00cdbca18932df959528015b0465eb712a7b2af32cd5a14e496a"
+        },
+        "t03": {
+          "buyer_fee": 2,
+          "cash_paid": 91,
+          "cash_received": 86,
+          "coordination": {
+            "approved_count": 0,
+            "competing_terms": [],
+            "participant_count": 3,
+            "state": "offered"
+          },
+          "created_tick": 10,
+          "execution_status": "independent_safe_legs_partial_completion_possible",
+          "expires_tick": 18,
+          "fee_basis": "each_cash_leg_buyer_once_rounded_up",
+          "fee_bps": 200,
+          "give": {
+            "asset": 301,
+            "card": "SAL-01"
+          },
+          "proof": "commitment_only_not_zk_or_server_attestation",
+          "receive": {
+            "asset": 101,
+            "card": "LAT-01"
+          },
+          "route_id": "727251e1c0861f6e2162157aede3550e95207f6e2372c9a9e4e8f1e554dcfdf2",
+          "team": "t03",
+          "venue": "v16",
+          "version": 1,
+          "view_id": "f3eb00e4216d75341bc8c8059d759181ebc66054d72636c3b4ee331c7fffa32c"
+        }
+      }
+    }
+  ],
+  "seed": 16,
+  "source_commit": "9985b89c52167efc40fce962a0c577ac28b36e13",
+  "synthetic": true,
+  "version": 1
+}

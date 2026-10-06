@@ -1,0 +1,26 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+bazaar_sdk.py
+
+# Waitlist and coordinator state
+/data/private_network/
+/data/
+
+# Mercado participant runtime files
+**/HUMAN_REQUIRED*.json*
+**/.mercado16-private/
+**/cycle_state.json
+**/pending_decision.json
+**/md16_token.txt
+
+# Site
+site/node_modules/
+site/.next/
+site/out/
+site/.vercel/
+site/next-env.d.ts
+site/*.tsbuildinfo
+.vercel
