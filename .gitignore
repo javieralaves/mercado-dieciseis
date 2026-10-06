@@ -24,3 +24,4 @@ site/.vercel/
 site/next-env.d.ts
 site/*.tsbuildinfo
 .vercel
+.env*
