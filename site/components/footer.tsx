@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { NOVA_ANNOUNCEMENT_URL, REPO_URL } from "@/lib/site";
 
@@ -23,9 +22,9 @@ export function Footer({ dict, lang }: { dict: Dictionary; lang: Locale }) {
             </a>
           </li>
           <li>
-            <Link href={`/${other}`} hrefLang={other} className="hover:text-amarillo">
+            <a href={`/${other}`} hrefLang={other} className="hover:text-amarillo">
               {dict.nav.switchLabel}
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

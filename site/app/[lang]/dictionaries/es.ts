@@ -64,10 +64,10 @@ export const es: Dictionary = {
         summary:
           "Una rama por persona y un archivo por ronda. Construimos una Abuela local, un dealer simulado ajustado al feed público, para puntuar cada estrategia sin gastar ni una prima.",
         milestones: [
-          { t: "Vie 19:53", who: "alaves", text: "Flujo de equipo y kit de inicio del Bazaar" },
-          { t: "Vie 20:44", who: "alaves", text: "Una Abuela local para puntuar cada rama gratis" },
-          { t: "Vie 22:26", who: "alaves", text: "Primera ronda en vivo, y lo aprendido por escrito" },
-          { t: "Vie 23:01", who: "alaves", text: "Agente de duelos, broker de tablón y un Market Test local" },
+          { t: "Vie 19:53", text: "Flujo de equipo y kit de inicio del Bazaar" },
+          { t: "Vie 20:44", text: "Una Abuela local para puntuar cada rama gratis" },
+          { t: "Vie 22:26", text: "Primera ronda en vivo, y lo aprendido por escrito" },
+          { t: "Vie 23:01", text: "Agente de duelos, broker de tablón y un Market Test local" },
         ],
       },
       {
@@ -76,12 +76,12 @@ export const es: Dictionary = {
         summary:
           "De madrugada, los scripts se convirtieron en un paquete con un hogar por dominio, un único flujo de eventos para cada observación y un estado de mercado compartido que leen todos los agentes. Dealers y rivales de duelo dejaron de estar programados a mano y pasaron a ser modelos ajustados.",
         milestones: [
-          { t: "Sáb 03:14", who: "garcia", text: "Escalera de sondeo y una arena que puntúa cada rama contra dos Abuelas" },
-          { t: "Sáb 06:44", who: "alaves", text: "Los scripts se mudan al paquete bazaar" },
-          { t: "Sáb 07:18", who: "alaves", text: "Estado de mercado compartido: una sola foto del juego para todos" },
-          { t: "Sáb 08:08", who: "alaves", text: "Cada dealer pasa a ser un modelo ajustado, no un negociador a medida" },
-          { t: "Sáb 08:26", who: "alaves", text: "El agente de duelos aprende de cada duelo" },
-          { t: "Sáb 08:40", who: "alaves", text: "Un agente de tratos entre equipos que solo busca valor positivo" },
+          { t: "Sáb 03:14", text: "Escalera de sondeo y una arena que puntúa cada rama contra dos Abuelas" },
+          { t: "Sáb 06:44", text: "Los scripts se mudan al paquete bazaar" },
+          { t: "Sáb 07:18", text: "Estado de mercado compartido: una sola foto del juego para todos" },
+          { t: "Sáb 08:08", text: "Cada dealer pasa a ser un modelo ajustado, no un negociador a medida" },
+          { t: "Sáb 08:26", text: "El agente de duelos aprende de cada duelo" },
+          { t: "Sáb 08:40", text: "Un agente de tratos entre equipos que solo busca valor positivo" },
         ],
       },
       {
@@ -90,12 +90,12 @@ export const es: Dictionary = {
         summary:
           "Pasamos la evidencia real por una puerta de regresión, metimos a una persona en el bucle para todo lo incierto y añadimos un orquestador que ordena en una sola escala las oportunidades de cada especialista. Mientras, la página de inteligencia de García se refrescaba sola.",
         milestones: [
-          { t: "Sáb 10:44", who: "alaves", text: "Repetición, evaluación y puerta de regresión sobre evidencia real" },
-          { t: "Sáb 12:30", who: "alaves", text: "Las ventas a dealers paran y preguntan antes de regalar valor" },
-          { t: "Sáb 12:59", who: "garcia", text: "Página de inteligencia en vivo, solo con lecturas" },
-          { t: "Sáb 14:19", who: "alaves", text: "Orquestación de oportunidades entre todos los agentes" },
-          { t: "Sáb 19:24", who: "garcia", text: "Escáner de puentes: comprar a un dealer y vender a otro" },
-          { t: "Sáb 20:05", who: "alaves", text: "Un guardián que rechaza tratos con pérdida en todos los scripts" },
+          { t: "Sáb 10:44", text: "Repetición, evaluación y puerta de regresión sobre evidencia real" },
+          { t: "Sáb 12:30", text: "Las ventas a dealers paran y preguntan antes de regalar valor" },
+          { t: "Sáb 12:59", text: "Página de inteligencia en vivo, solo con lecturas" },
+          { t: "Sáb 14:19", text: "Orquestación de oportunidades entre todos los agentes" },
+          { t: "Sáb 19:24", text: "Escáner de puentes: comprar a un dealer y vender a otro" },
+          { t: "Sáb 20:05", text: "Un guardián que rechaza tratos con pérdida en todos los scripts" },
         ],
       },
       {
@@ -104,10 +104,10 @@ export const es: Dictionary = {
         summary:
           "Nuestro propio mercado, diseñado como red privada. Cada equipo se verifica con un mensaje desde su propia cuenta, guarda sus valores en su máquina y opera con ofertas normales del Bazaar.",
         milestones: [
-          { t: "Sáb 21:33", who: "alaves", text: "Mercado Dieciséis rediseñado como red privada" },
-          { t: "Sáb 22:00", who: "alaves", text: "Verificar a un equipo por su propio mensaje, nunca por su clave" },
-          { t: "Sáb 22:20", who: "alaves", text: "Solo modo local: los valores no salen de la máquina del equipo" },
-          { t: "Sáb 22:48", who: "alaves", text: "Se publican el mercado, la skill del participante y la web" },
+          { t: "Sáb 21:33", text: "Mercado Dieciséis rediseñado como red privada" },
+          { t: "Sáb 22:00", text: "Verificar a un equipo por su propio mensaje, nunca por su clave" },
+          { t: "Sáb 22:20", text: "Solo modo local: los valores no salen de la máquina del equipo" },
+          { t: "Sáb 22:48", text: "Se publican el mercado, la skill del participante y la web" },
         ],
       },
       {
@@ -116,12 +116,12 @@ export const es: Dictionary = {
         summary:
           "El valor privado actual pasó a ser el suelo de cualquier trato, la incertidumbre empezó a fallar en cerrado y las paradas humanas sobreviven a los reinicios. Después llegó el motor de ciclos: propuestas privadas para rutas de tres o más equipos, con cada pata segura por sí sola.",
         milestones: [
-          { t: "Dom 00:26", who: "alaves", text: "El valor privado actual, suelo firme de cualquier trato" },
-          { t: "Dom 08:48", who: "alaves", text: "Las paradas humanas persisten tras reiniciar" },
-          { t: "Dom 10:42", who: "alaves", text: "Propuestas privadas de ciclo con comisión del 2%" },
-          { t: "Dom 11:25", who: "alaves", text: "Ciclos entre varios equipos con ejecución parcial segura" },
-          { t: "Dom 12:12", who: "garcia", text: "Resultados de Duelos III; la regla de retirada, probada y descartada" },
-          { t: "Dom 15:41", who: "ricardo", text: "Álbumes de equipos y radiografía de equipos" },
+          { t: "Dom 00:26", text: "El valor privado actual, suelo firme de cualquier trato" },
+          { t: "Dom 08:48", text: "Las paradas humanas persisten tras reiniciar" },
+          { t: "Dom 10:42", text: "Propuestas privadas de ciclo con comisión del 2%" },
+          { t: "Dom 11:25", text: "Ciclos entre varios equipos con ejecución parcial segura" },
+          { t: "Dom 12:12", text: "Resultados de Duelos III; la regla de retirada, probada y descartada" },
+          { t: "Dom 15:41", text: "Álbumes de equipos y radiografía de equipos" },
         ],
       },
     ],

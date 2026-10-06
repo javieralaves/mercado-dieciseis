@@ -9,15 +9,3 @@ export const MEMBERS = [
   { id: "garcia", initials: "JG", color: "bg-azul", linkedin: "https://www.linkedin.com/in/javier-garc%C3%ADa-pav%C3%B3n-99a970435/" },
   { id: "ricardo", initials: "RL", color: "bg-verde", linkedin: "https://www.linkedin.com/in/ricardol%C3%B3pezalc%C3%A1ntara/" },
 ] as const;
-
-export const AUTHOR_NAMES: Record<string, string> = {
-  alaves: "Alavés",
-  garcia: "García",
-  ricardo: "Ricardo",
-};
-
-export const AUTHOR_COLORS: Record<string, string> = {
-  alaves: "bg-rojo text-paper",
-  garcia: "bg-azul text-paper",
-  ricardo: "bg-verde text-paper",
-};

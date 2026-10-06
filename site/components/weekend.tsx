@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import commits from "@/data/commits.json";
-import { AUTHOR_COLORS, AUTHOR_NAMES } from "@/lib/site";
 import { SectionHeader } from "./section-header";
 
 const PHASE_HOURS: [number, number][] = [
@@ -175,12 +174,9 @@ export function Weekend({ dict }: { dict: Dictionary }) {
                   <p className="mt-3 leading-relaxed text-ink/80">{p.summary}</p>
                   <ul className="mt-5 divide-y-2 divide-dashed divide-ink/15">
                     {p.milestones.map((m) => (
-                      <li key={m.t + m.text} className="flex flex-wrap items-baseline gap-x-3 gap-y-1 py-2.5">
+                      <li key={m.t + m.text} className="flex items-baseline gap-x-3 py-2.5">
                         <span className="w-[4.5rem] shrink-0 font-mono text-xs font-bold">{m.t}</span>
-                        <span className={`rounded-full px-2 py-0.5 font-display text-[0.65rem] font-bold uppercase tracking-wider ${AUTHOR_COLORS[m.who]}`}>
-                          {AUTHOR_NAMES[m.who]}
-                        </span>
-                        <span className="min-w-0 basis-full text-[0.95rem] leading-snug sm:basis-0 sm:flex-1">{m.text}</span>
+                        <span className="min-w-0 flex-1 text-[0.95rem] leading-snug">{m.text}</span>
                       </li>
                     ))}
                   </ul>

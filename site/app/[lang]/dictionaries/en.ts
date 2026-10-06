@@ -62,10 +62,10 @@ export const en = {
         summary:
           "One branch per teammate, one file per round. We built a local Abuela, a simulated dealer fitted to the public feed, so every strategy could be scored without spending a single prima.",
         milestones: [
-          { t: "Fri 19:53", who: "alaves", text: "Team workflow and the Bazaar starter kit" },
-          { t: "Fri 20:44", who: "alaves", text: "A local Abuela to score every branch for free" },
-          { t: "Fri 22:26", who: "alaves", text: "First live round, and the lessons written down" },
-          { t: "Fri 23:01", who: "alaves", text: "Duel agent, board broker and a local Market Test" },
+          { t: "Fri 19:53", text: "Team workflow and the Bazaar starter kit" },
+          { t: "Fri 20:44", text: "A local Abuela to score every branch for free" },
+          { t: "Fri 22:26", text: "First live round, and the lessons written down" },
+          { t: "Fri 23:01", text: "Duel agent, board broker and a local Market Test" },
         ],
       },
       {
@@ -74,12 +74,12 @@ export const en = {
         summary:
           "Overnight the scripts became one package with a home per domain, one event stream for every observation, and a shared market state every agent reads. Dealers and duel rivals stopped being hard-coded and became fitted models.",
         milestones: [
-          { t: "Sat 03:14", who: "garcia", text: "Probe ladder, and an arena that scores every branch on two Abuelas" },
-          { t: "Sat 06:44", who: "alaves", text: "The scripts move into the bazaar package" },
-          { t: "Sat 07:18", who: "alaves", text: "Shared market state: one picture of the game for every agent" },
-          { t: "Sat 08:08", who: "alaves", text: "Any dealer becomes a fitted model, not a bespoke negotiator" },
-          { t: "Sat 08:26", who: "alaves", text: "The duel agent learns from every duel" },
-          { t: "Sat 08:40", who: "alaves", text: "A team-trading agent for positive-value trades" },
+          { t: "Sat 03:14", text: "Probe ladder, and an arena that scores every branch on two Abuelas" },
+          { t: "Sat 06:44", text: "The scripts move into the bazaar package" },
+          { t: "Sat 07:18", text: "Shared market state: one picture of the game for every agent" },
+          { t: "Sat 08:08", text: "Any dealer becomes a fitted model, not a bespoke negotiator" },
+          { t: "Sat 08:26", text: "The duel agent learns from every duel" },
+          { t: "Sat 08:40", text: "A team-trading agent for positive-value trades" },
         ],
       },
       {
@@ -88,12 +88,12 @@ export const en = {
         summary:
           "We replayed real evidence through a regression gate, put a human in the loop for anything uncertain, and added an orchestrator that ranks every specialist's opportunities on one scale. All the while, García's live intel page refreshed itself.",
         milestones: [
-          { t: "Sat 10:44", who: "alaves", text: "Replay, evaluation and a regression gate over real evidence" },
-          { t: "Sat 12:30", who: "alaves", text: "Dealer sales stop and ask a human before giving value away" },
-          { t: "Sat 12:59", who: "garcia", text: "A live intel page built from read-only requests" },
-          { t: "Sat 14:19", who: "alaves", text: "Opportunity orchestration across every specialist agent" },
-          { t: "Sat 19:24", who: "garcia", text: "Bridge scanner: buy from one dealer, sell to another" },
-          { t: "Sat 20:05", who: "alaves", text: "A guard that refuses value-losing deals in every script" },
+          { t: "Sat 10:44", text: "Replay, evaluation and a regression gate over real evidence" },
+          { t: "Sat 12:30", text: "Dealer sales stop and ask a human before giving value away" },
+          { t: "Sat 12:59", text: "A live intel page built from read-only requests" },
+          { t: "Sat 14:19", text: "Opportunity orchestration across every specialist agent" },
+          { t: "Sat 19:24", text: "Bridge scanner: buy from one dealer, sell to another" },
+          { t: "Sat 20:05", text: "A guard that refuses value-losing deals in every script" },
         ],
       },
       {
@@ -102,10 +102,10 @@ export const en = {
         summary:
           "Our own venue, designed as a private network. Teams verify themselves with a message from their own account, keep their values on their own machine, and trade through ordinary Bazaar offers.",
         milestones: [
-          { t: "Sat 21:33", who: "alaves", text: "Mercado Dieciséis redesigned as a private network" },
-          { t: "Sat 22:00", who: "alaves", text: "Verify a team from its own Bazaar message, never its key" },
-          { t: "Sat 22:20", who: "alaves", text: "Local mode only: values never leave a team's machine" },
-          { t: "Sat 22:48", who: "alaves", text: "Venue, participant skill and public site go up" },
+          { t: "Sat 21:33", text: "Mercado Dieciséis redesigned as a private network" },
+          { t: "Sat 22:00", text: "Verify a team from its own Bazaar message, never its key" },
+          { t: "Sat 22:20", text: "Local mode only: values never leave a team's machine" },
+          { t: "Sat 22:48", text: "Venue, participant skill and public site go up" },
         ],
       },
       {
@@ -114,12 +114,12 @@ export const en = {
         summary:
           "Current private value became the hard trading floor, uncertainty started failing closed, and human stops now survive restarts. Then the cycle engine landed: private proposals for routes of three or more teams, each leg safe on its own.",
         milestones: [
-          { t: "Sun 00:26", who: "alaves", text: "Current private value becomes the hard trading floor" },
-          { t: "Sun 08:48", who: "alaves", text: "Human-required stops persist across restarts" },
-          { t: "Sun 10:42", who: "alaves", text: "Private cycle proposals with a 2% fee" },
-          { t: "Sun 11:25", who: "alaves", text: "Multi-team cycles with safe partial execution" },
-          { t: "Sun 12:12", who: "garcia", text: "Duels III results; the retreat rule, tested and dropped" },
-          { t: "Sun 15:41", who: "ricardo", text: "Team albums and team radiograph analytics" },
+          { t: "Sun 00:26", text: "Current private value becomes the hard trading floor" },
+          { t: "Sun 08:48", text: "Human-required stops persist across restarts" },
+          { t: "Sun 10:42", text: "Private cycle proposals with a 2% fee" },
+          { t: "Sun 11:25", text: "Multi-team cycles with safe partial execution" },
+          { t: "Sun 12:12", text: "Duels III results; the retreat rule, tested and dropped" },
+          { t: "Sun 15:41", text: "Team albums and team radiograph analytics" },
         ],
       },
     ],

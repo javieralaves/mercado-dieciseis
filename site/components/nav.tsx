@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { Dictionary, Locale } from "@/app/[lang]/dictionaries";
 import { REPO_URL } from "@/lib/site";
 import { GitHubIcon } from "./icons";
@@ -30,14 +29,14 @@ export function Nav({ dict, lang }: { dict: Dictionary; lang: Locale }) {
           ))}
         </ul>
         <div className="flex items-center gap-2">
-          <Link
+          <a
             href={`/${other}`}
             hrefLang={other}
             aria-label={dict.nav.switchLabel}
             className="rounded-full border-[3px] border-ink bg-white px-3 py-1 font-display text-sm font-extrabold shadow-hard-sm hover:bg-amarillo"
           >
             {dict.nav.switchTo}
-          </Link>
+          </a>
           <a
             href={REPO_URL}
             target="_blank"
